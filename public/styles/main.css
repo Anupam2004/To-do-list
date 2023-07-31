@@ -1,0 +1,62 @@
+body {
+    background: #222;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: hotpink;
+  }
+  
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-left: 600px;
+  }
+
+ input.box{
+    margin-left: 600px;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    
+  }
+  .text{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  input.box2{
+    margin-left: 600px;
+    justify-content: center;
+    height: 2.5rem;
+    width: 15.6rem;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+
+  
+
+button.btn{
+  height:2.8rem ;
+  width: 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 1px;
+  
+}
+
+
+  
+  
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
+
+  .active , .box:hover{
+      background-color: yellow;
+      color: black; 
+  }

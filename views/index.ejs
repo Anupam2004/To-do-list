@@ -1,0 +1,24 @@
+
+
+<%- include("partials/header.ejs") %>
+	
+	<h1> <%= time %></h1> 
+	<div class="bg">
+	<input type="checkbox" name="option1" value="Option 1" class="box active"><span class="text">Apple  </span> <br>
+	<input type="checkbox" name="option1" value="Option 1" class="box"><span class="text">Mango</span> <br>
+	<% for(var i=0; i<nam.length; i++) {%>
+		
+		<input type="checkbox" name="option1" value="Option 1" class="box" ><span class="text" ><%= nam[i] %></span> <br>
+		
+	 <% } %>
+	
+	
+	<form action="/" method="post">
+	<input   type="text" name="input" class="box2"  autocomplete="off">
+	<button type="submit" class="btn">Add</button>
+	</form>
+</div>
+	<%- include("partials/footer.ejs") %>
+
+
+  
